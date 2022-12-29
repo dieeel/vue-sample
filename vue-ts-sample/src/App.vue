@@ -5,6 +5,11 @@ export default {
       title: 'My New Vue Title.',
       msg: 'Welcom to Vue',
       isRed: false,
+      input: {
+        firstName: '',
+        lastName: '',
+        isMember: true,
+      },
       textStatus: {
         red: true,
       },
@@ -39,12 +44,12 @@ export default {
   },
   methods: {
     addUser() {
+      this.users.push(this.input)
       this.input = {
           firstName: '',
           lastName: '',
           isMember: true
       }
-      this.users.push(this.input)
     }
   }
 }
@@ -59,9 +64,12 @@ export default {
   <p v-else>メンバーではありません</p>
 
   <h3 :class="textStatus">{{ 'ようこそ' + 'Vueへ' }}</h3>
-  <input type="text" v-model="input.firstName" />
-  <input type="text" v-model="input.lastName" />
-  <input type="checkbox" v-model="input.isMember" />
+  firstName: <input type="text" v-model="input.firstName" />
+  <br>
+  lastName: <input type="text" v-model="input.lastName" />
+  <br>
+  <input type="checkbox" v-model="input.isMember" />メンバ？
+  <br>
   <button v-on:click="addUser">ユーザ追加</button>
   <button @:click="addUser">こっちでもOK</button>
 
