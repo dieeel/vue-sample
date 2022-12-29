@@ -10,16 +10,14 @@
 ```
 nodenv install 18.12.1
 nodenv global 18.12.1
+npm install -g npm@9.2.0
 ```
 
 ```
 vue-sample $ npm create vite@4.0.0
-Need to install the following packages:
-  create-vite@4.0.0
-Ok to proceed? (y) y
 ✔ Project name: … vue-sample
 ✔ Select a framework: › Vue
-✔ Select a variant: › TypeScript
+✔ Select a variant: › JavaScript
 
 Scaffolding project in /Users/takaakinakazawa/gitrepo/own/vue-sample/vue-sample...
 
@@ -33,13 +31,12 @@ vue-sample $ cd vue-sample
 vue-sample $ npm install
 npm WARN deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
 
-added 47 packages, and audited 48 packages in 9s
+added 33 packages, and audited 34 packages in 6s
 
 4 packages are looking for funding
   run `npm fund` for details
 
 found 0 vulnerabilities
-vue-sample $ ls -l
+vue-sample $
 ```
-
 
