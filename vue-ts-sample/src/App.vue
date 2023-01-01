@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <script>
 export default {
   data() {
@@ -78,6 +79,17 @@ export default {
     <p v-if="u.isMember">メンバーです</p>
     <p v-else>メンバーではありません</p>
   </div>
+=======
+<script setup lang="ts">
+import VSample001 from './components/VSample001.vue';
+import VTableSample001 from './components/VTableSample001.vue';
+
+
+</script>
+
+<template>
+  <VTableSample001></VTableSample001>
+>>>>>>> Stashed changes
 </template>
 
 <style>
