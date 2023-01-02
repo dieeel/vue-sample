@@ -21,7 +21,7 @@ vue-sample $ npm create vite@4.0.0
 ✔ Select a framework: › Vue
 ✔ Select a variant: › JavaScript
 
-Scaffolding project in /Users/takaakinakazawa/gitrepo/own/vue-sample/vue-sample...
+Scaffolding project in <path>/vue-sample/vue-sample...
 
 Done. Now run:
 
@@ -50,7 +50,7 @@ vue-sample $ npm create vite@4.0.0
 ✔ Select a framework: › Vue
 ✔ Select a variant: › TypeScript
 
-Scaffolding project in /Users/takaakinakazawa/gitrepo/own/vue-sample/vue-ts-sample...
+Scaffolding project in <path>/vue-sample/vue-ts-sample...
 
 Done. Now run:
 
