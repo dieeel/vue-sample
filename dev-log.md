@@ -3,7 +3,8 @@
 ## ref
 
 * https://qiita.com/TakahiRoyte/items/9033b61a0e528324da4c
-* https://www.udemy.com/course/trial-vue3-x-typescript/
+* [udemy vue3 tutorial](https://www.udemy.com/course/trial-vue3-x-typescript/):w
+* [table](https://www.kabanoki.net/9275/)
 
 ## start
 
